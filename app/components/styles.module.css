@@ -1,0 +1,17 @@
+.nav {
+    background-color: var(--primary);
+    font-size: xx-large;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav li {
+    padding: 3px;
+    margin: 3px;
+    border-radius: 8px;
+}
+
+.activeLink {
+    background-color: var(--primaryLight);
+}
